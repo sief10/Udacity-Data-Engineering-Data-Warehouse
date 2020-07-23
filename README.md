@@ -8,7 +8,8 @@
 
 ### Database Model
     Sparkify analytics database (called here sparkifydb) schema has a star design. Start design means that it has one Fact Table having business data, and supporting Dimension Tables. The Fact Table answers one of the key questions: what songs users are listening to. DB schema is the following:
-   ![ERD](/https://r766469c826419xjupyterlr5tapor7.udacity-student-workspaces.com/lab/tree/ERD.jpg"ERD") 
+   
+   <img src="./ERD.jpg?raw=true" width="600" />
    
 ### Quick start
     Project builds an ETL pipeline (Extract, Transform, Load) to create the DB and tables in AWS Redshift cluster,fetch data from JSON files stored in AWS S3, process the data,and insert the data to AWS Redshift DB.
